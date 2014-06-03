@@ -2587,8 +2587,8 @@ class Mission
 				};
 				class Item24
 				{
-					position[]={14030.874,23.980644,18802.842};
-					azimut=-499.16211;
+					position[]={14029.711,24.015268,18801.057};
+					azimut=-499.16199;
 					offsetY=0.30000001;
 					special="NONE";
 					id=130;
@@ -4668,7 +4668,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="kart_shop";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Kart Shop"",life_fnc_vehicleShop,""kart_shop""]; this addAction[""Kart Asurüstung"",life_fnc_weaponShopMenu,""kartstore""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Kart Shop"",life_fnc_vehicleShop,""kart_shop""]; this addAction[""Kart Kleidung "",life_fnc_clothingMenu,""kart""]; this addAction[""Kart Ausrüstung"",life_fnc_weaponShopMenu,""kartstore""]; this addAction[""Garage"",  life_fnc_openGarage, [""kart_spawn"",""Auto""]]; this addAction[""Fahrzeug einparken"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 				};
 			};
 		};
@@ -25769,7 +25769,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=371;
+		items=372;
 		class Item0
 		{
 			position[]={15184.11,17.880962,17329.824};
@@ -26248,7 +26248,7 @@ class Mission
 		};
 		class Item62
 		{
-			position[]={14029.369,24.016392,18800.967};
+			position[]={14029.525,24.020294,18800.813};
 			name="Gen_3_4_1";
 			text="Bruce's Outback Outfits";
 			type="c_unknown";
@@ -28711,6 +28711,14 @@ class Mission
 			name="kart_spawn";
 			type="Empty";
 			angle=76.624283;
+		};
+		class Item371
+		{
+			position[]={14127.561,17.233267,16438.281};
+			name="karts";
+			text="Kartrennstecke";
+			type="n_motor_inf";
+			colorName="ColorBlue";
 		};
 	};
 	class Sensors

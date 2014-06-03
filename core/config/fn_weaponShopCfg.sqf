@@ -571,16 +571,6 @@ switch(_shop) do
 	{
 		["Kart Ausrüstung",
 			[
-				["U_C_Driver_1",nil,3500],
-				["H_RacingHelmet_1_F",nil,500],
-				["U_C_Driver_2",nil,3500],
-				["H_RacingHelmet_2_F",nil,500],
-				["U_C_Driver_3",nil,3500],
-				["H_RacingHelmet_3_F",nil,500],
-				["U_C_Driver_4",nil,3500],
-				["H_RacingHelmet_4_F",nil,500],
-				["U_Marshal",nil,3500],
-				["H_Cap_marshal",nil,500],
 				["hgun_Pistol_Signal_F",nil,10000],
 				["6Rnd_RedSignal_F",nil,1000],
 				["6Rnd_GreenSignal_F",nil,1000]
