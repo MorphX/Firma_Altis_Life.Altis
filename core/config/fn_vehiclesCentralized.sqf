@@ -14,6 +14,11 @@ life_vehicle_config_new = [
 
 	["B_Quadbike_01_F", 			50, 	3750, 		0, 		-1, 		false, 		0], //Quad
 	
+	["C_Kart_01_Blu_F", 			50, 	15000, 		0, 		-1, 		false, 		0], //Kart-Blau
+	["C_Kart_01_Fuel_F", 			50, 	15000, 		0, 		-1, 		false, 		0], //Kart-Fuel
+	["C_Kart_01_Red_F", 			50, 	15000, 		0, 		-1, 		false, 		0], //Kart-Rot
+	["C_Kart_01_Vrana_F", 			50, 	15000, 		0, 		-1, 		false, 		0], //Kart-Vrana
+	
 	["C_Hatchback_01_F", 			75, 	30000, 		0, 		-1, 		false, 		0], //Limosine
 	["C_Hatchback_01_sport_F",		75, 	60000, 		0, 		-1, 		false, 		0], //Sportlimosine (Donator-only)
 	

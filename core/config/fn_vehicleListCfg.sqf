@@ -20,6 +20,18 @@ _return = [];
 
 switch (_shop) do
 {
+//Kart-Shops
+	case "kart_shop":
+	{
+		_return = 
+		[
+			["C_Kart_01_Blu_F",-1],
+			["C_Kart_01_Fuel_F",-1],
+			["C_Kart_01_Red_F",-1],
+			["C_Kart_01_Vrana_F",-1]			
+		];
+	}; 
+	
 //ADAC-Shops
 	case "civ_adac":
 	{

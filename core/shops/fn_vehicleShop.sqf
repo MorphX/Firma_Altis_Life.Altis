@@ -23,6 +23,12 @@ ctrlShow[2303,false];
 
 switch (life_veh_shop) do
 {
+	case "kart_shop":
+	{
+		if(playerSide == west) exitWith {_kill =  "Du bist kein Zivilist."};
+		ctrlSetText[2301,"Kart-Shop"];
+	};	
+	
 	case "civ_adac":
 	{
 		if((["adac"] call life_fnc_permLevel) < 1) exitWith {_kill = "Du hast keine ADAC-Lizenz."};

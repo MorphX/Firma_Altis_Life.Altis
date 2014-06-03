@@ -12,6 +12,14 @@ _double = false;
 switch(life_veh_shop) do
 {
 	//##33
+	case "kart_shop":
+	{
+		_sp = getMarkerPos "kart_spawn";
+		_dir = markerDir "kart_spawn";
+		if(count(nearestObjects[_sp,["Car","Ship","Air"],20]) > 0) exitWith {hint "Ein Fahrzeug ist auf dem Spawnpunkt."};
+	};
+
+	//##33
 	case "civ_adac":
 	{
 		_sp = getMarkerPos "civ_adac_car_spawn";
